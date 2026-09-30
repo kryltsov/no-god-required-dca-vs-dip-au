@@ -90,7 +90,7 @@ src/run-experiment.ts   every experiment; src/make-charts.ts   the figures
 src/spreadsheet/  builds and checks the five-minute spreadsheet
 tests/            indicator and simulator checks (no data needed)
 findings/         generated result tables (E01 to E09)
-figures/          generated charts (SVG)
+figures/          generated charts (SVG, with 2x PNG copies in figures/png)
 data/             the file format, with invented sample files (real price files are git-ignored)
 METHOD.md         exactly how trades and numbers are made, and where the model is loose
 LICENSE           MIT
