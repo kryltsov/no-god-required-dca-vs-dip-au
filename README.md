@@ -1,3 +1,5 @@
+![Cartoon of a figure in a white robe wondering "pick the bottom? again?" beside three lines through the same dip: DCA, a realistic dip buyer and God's perfect timing](assets/banner.webp)
+
 # No God Required: Buying the Dip vs Dollar-Cost Averaging (Australian edition)
 
 > Open code and results: does buying the dip on RSI, moving-average or Bollinger signals beat dollar-cost averaging on ASX ETFs? Models brokerage, dividends and idle cash. Sample data only. Educational, not advice.
