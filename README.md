@@ -8,8 +8,9 @@ Inspired by Nick Maggiulli's
 [*Even God Couldn't Beat Dollar-Cost Averaging*](https://ofdollarsanddata.com/even-god-couldnt-beat-dollar-cost-averaging/)
 (Of Dollars and Data, 2019).
 
-**Articles:** the series is published on Substack (canonical): [link TBA]. Copies on LinkedIn: [link TBA],
-where comments are welcome. The articles are not part of this repository, which holds the code, the
+**Articles:** the series is published on Substack (canonical). [Article 1](https://igorkryltsov.substack.com/p/1-even-a-god-couldnt-beat-dollar)
+is out and the rest follow. Copies on LinkedIn: [link TBA], where comments are welcome. All the
+[interactive charts](https://kryltsov.github.io/no-god-required-dca-vs-dip-au/) are on GitHub Pages. The articles are not part of this repository, which holds the code, the
 results and sample data.
 
 **This is educational modelling of historical scenarios. It is not financial advice.** Past results are
