@@ -27,7 +27,7 @@ svg{--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--grid:#e8e7e3;--s1:#2a78d6;-
 <line class="contrib" x1="0" x2="22" y1="5" y2="5"/><text class="note" x="28" y="9">money put in</text>
 <line class="line k" x1="118" x2="140" y1="5" y2="5"/><text class="note" x="146" y="9">value: holdings + cash</text>
 <rect class="area k" x="290" y="0" width="22" height="10"/><text class="note" x="318" y="9">cash waiting to be spent</text>
-<circle class="dot k" cx="486" cy="5" r="3"/><text class="note" x="496" y="9">a buy (hover for date and amount)</text>
+<circle class="dot k" cx="486" cy="5" r="3"/><text class="note" x="496" y="9">a buy</text>
 </g>
 
 <text class="panel-title" x="58" y="100">DCA: buy on the day the money arrives</text>
