@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 282" width="920" height="282" role="img" aria-labelledby="t d">
+<title id="t">A pot per fund: the same result measured against two different DCA baselines</title>
+<desc id="d">For five dip rules run with a pot per fund on the Topaz portfolio, the ratio to one-pot DCA and the ratio to pot-per-fund DCA.</desc>
+<style>
+svg{--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--grid:#e8e7e3;--mu:#8a8984;--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+@media (prefers-color-scheme:dark){svg{--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--grid:#34332f;--mu:#8f8e88;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181}}
+.bg{fill:var(--surface)}
+.title{font-size:16px;font-weight:600;fill:var(--ink)}
+.note{font-size:12px;fill:var(--ink2)}
+.lab{font-size:12px;fill:var(--ink)}
+.sub{font-size:11px;fill:var(--ink2)}
+.tick{font-size:11px;fill:var(--ink2)}
+.grid{stroke:var(--grid);stroke-width:1}
+.ref{stroke:var(--ink2);stroke-width:1}
+.band{fill:var(--ink2);opacity:.1}
+.f1{fill:var(--s1)}.f2{fill:var(--s2)}.f3{fill:var(--s3)}.f4{fill:var(--s4)}.f5{fill:var(--s5)}.fm{fill:var(--mu)}
+.k1{stroke:var(--s1)}.k2{stroke:var(--s2)}.k3{stroke:var(--s3)}.k4{stroke:var(--s4)}.k5{stroke:var(--s5)}.km{stroke:var(--mu)}
+.ln{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.rng{fill:none;stroke-width:3;stroke-linecap:round}
+.dot{stroke:var(--surface);stroke-width:1.5}
+.seg{stroke:var(--surface);stroke-width:2}
+</style>
+<rect class="bg" width="920" height="282"/>
+<text class="title" x="24" y="28">A pot per fund: the same result measured against two different DCA baselines</text>
+<text class="note" x="24" y="48">Against one-pot DCA some rules look ahead. Against DCA run the same way (a pot per fund), every rule is behind.</text>
+<circle class="dot f1" cx="29" cy="68" r="5"/><text class="note" x="40" y="72">against one-pot DCA</text><circle class="dot f2" cx="188.60000000000002" cy="68" r="5"/><text class="note" x="199.60000000000002" y="72">against DCA with a pot per fund (the fair baseline)</text><line class="grid" x1="240" x2="240" y1="82" y2="258"/><text class="tick" x="240" y="274" text-anchor="middle">0.97</text><line class="grid" x1="368" x2="368" y1="82" y2="258"/><text class="tick" x="368" y="274" text-anchor="middle">0.98</text><line class="grid" x1="496" x2="496" y1="82" y2="258"/><text class="tick" x="496" y="274" text-anchor="middle">0.99</text><line class="grid" x1="624" x2="624" y1="82" y2="258"/><text class="tick" x="624" y="274" text-anchor="middle">1.00</text><line class="grid" x1="752" x2="752" y1="82" y2="258"/><text class="tick" x="752" y="274" text-anchor="middle">1.01</text><line class="grid" x1="880" x2="880" y1="82" y2="258"/><text class="tick" x="880" y="274" text-anchor="middle">1.02</text><line class="ref" x1="624" x2="624" y1="78" y2="258"/><text class="sub" x="624" y="74" text-anchor="middle">tie with DCA</text><text class="lab" x="228" y="108" text-anchor="end">RSI below 30</text><line class="rng km" style="stroke-width:2px;opacity:.6" x1="538.2473191634722" x2="397.9908310830133" y1="104" y2="104"/><circle class="dot f1" cx="538.2473191634722" cy="104" r="5"><title>RSI below 30, against one-pot DCA: 0.993</title></circle><circle class="dot f2" cx="397.9908310830133" cy="104" r="5"><title>RSI below 30, against DCA with a pot per fund (the fair baseline): 0.982</title></circle><text class="lab" x="228" y="134" text-anchor="end">Stochastic below 20</text><line class="rng km" style="stroke-width:2px;opacity:.6" x1="712.8111770491832" x2="570.628997809961" y1="130" y2="130"/><circle class="dot f1" cx="712.8111770491832" cy="130" r="5"><title>Stochastic below 20, against one-pot DCA: 1.007</title></circle><circle class="dot f2" cx="570.628997809961" cy="130" r="5"><title>Stochastic below 20, against DCA with a pot per fund (the fair baseline): 0.996</title></circle><text class="lab" x="228" y="160" text-anchor="end">50-day average</text><line class="rng km" style="stroke-width:2px;opacity:.6" x1="677.7907563962904" x2="535.9949029134106" y1="156" y2="156"/><circle class="dot f1" cx="677.7907563962904" cy="156" r="5"><title>50-day average, against one-pot DCA: 1.004</title></circle><circle class="dot f2" cx="535.9949029134106" cy="156" r="5"><title>50-day average, against DCA with a pot per fund (the fair baseline): 0.993</title></circle><text class="lab" x="228" y="186" text-anchor="end">200-day average</text><line class="rng km" style="stroke-width:2px;opacity:.6" x1="542.1835340691266" x2="401.88362386031497" y1="182" y2="182"/><circle class="dot f1" cx="542.1835340691266" cy="182" r="5"><title>200-day average, against one-pot DCA: 0.994</title></circle><circle class="dot f2" cx="401.88362386031497" cy="182" r="5"><title>200-day average, against DCA with a pot per fund (the fair baseline): 0.983</title></circle><text class="lab" x="228" y="212" text-anchor="end">Bollinger band</text><line class="rng km" style="stroke-width:2px;opacity:.6" x1="675.0573978688001" x2="533.2916972733136" y1="208" y2="208"/><circle class="dot f1" cx="675.0573978688001" cy="208" r="5"><title>Bollinger band, against one-pot DCA: 1.004</title></circle><circle class="dot f2" cx="533.2916972733136" cy="208" r="5"><title>Bollinger band, against DCA with a pot per fund (the fair baseline): 0.993</title></circle>
+</svg>

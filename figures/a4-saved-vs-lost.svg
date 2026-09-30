@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 362" width="920" height="362" role="img" aria-labelledby="t d">
+<title id="t">Waiting cost each dip rule more than its lower brokerage gave back, VAS, $3 a trade</title>
+<desc id="d">For each dip rule on VAS, the shortfall against DCA before brokerage and the brokerage saved by trading less, at $3 a trade.</desc>
+<style>
+svg{--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--grid:#e8e7e3;--mu:#8a8984;--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+@media (prefers-color-scheme:dark){svg{--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--grid:#34332f;--mu:#8f8e88;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181}}
+.bg{fill:var(--surface)}
+.title{font-size:16px;font-weight:600;fill:var(--ink)}
+.note{font-size:12px;fill:var(--ink2)}
+.lab{font-size:12px;fill:var(--ink)}
+.sub{font-size:11px;fill:var(--ink2)}
+.tick{font-size:11px;fill:var(--ink2)}
+.grid{stroke:var(--grid);stroke-width:1}
+.ref{stroke:var(--ink2);stroke-width:1}
+.band{fill:var(--ink2);opacity:.1}
+.f1{fill:var(--s1)}.f2{fill:var(--s2)}.f3{fill:var(--s3)}.f4{fill:var(--s4)}.f5{fill:var(--s5)}.fm{fill:var(--mu)}
+.k1{stroke:var(--s1)}.k2{stroke:var(--s2)}.k3{stroke:var(--s3)}.k4{stroke:var(--s4)}.k5{stroke:var(--s5)}.km{stroke:var(--mu)}
+.ln{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.rng{fill:none;stroke-width:3;stroke-linecap:round}
+.dot{stroke:var(--surface);stroke-width:1.5}
+.seg{stroke:var(--surface);stroke-width:2}
+</style>
+<rect class="bg" width="920" height="362"/>
+<text class="title" x="24" y="28">Waiting cost each dip rule more than its lower brokerage gave back, VAS, $3 a trade</text>
+<text class="note" x="24" y="48">Orange: behind DCA before brokerage. Green: brokerage saved. Orange minus green is the final gap: behind in every case.</text>
+<rect class="f3" x="24" y="60" width="14" height="12" rx="2"/><text class="note" x="44" y="70">brokerage saved against DCA</text><rect class="f2" x="238.8" y="60" width="14" height="12" rx="2"/><text class="note" x="258.8" y="70">behind DCA before brokerage</text><line class="grid" x1="170" x2="170" y1="80" y2="342"/><text class="tick" x="170" y="356" text-anchor="middle"></text><line class="grid" x1="367.0469561213216" x2="367.0469561213216" y1="80" y2="342"/><text class="tick" x="367.0469561213216" y="356" text-anchor="middle">$1,000</text><line class="grid" x1="564.0939122426432" x2="564.0939122426432" y1="80" y2="342"/><text class="tick" x="564.0939122426432" y="356" text-anchor="middle">$2,000</text><line class="grid" x1="761.140868363965" x2="761.140868363965" y1="80" y2="342"/><text class="tick" x="761.140868363965" y="356" text-anchor="middle">$3,000</text><text class="lab" x="160" y="108" text-anchor="end">RSI below 30</text><rect class="f3" x="170" y="88" width="101.67622935860197" height="16" rx="3"><title>RSI below 30, brokerage saved against DCA: $516</title></rect><text class="sub" x="277.676229358602" y="100">$516</text><rect class="f2" x="170" y="108" width="494.9997871394544" height="16" rx="3"><title>RSI below 30, behind DCA before brokerage: $2,512</title></rect><text class="sub" x="670.9997871394544" y="120">$2,512</text><text class="lab" x="160" y="158" text-anchor="end">Stochastic below 20</text><rect class="f3" x="170" y="138" width="65.02549552003615" height="16" rx="3"><title>Stochastic below 20, brokerage saved against DCA: $330</title></rect><text class="sub" x="241.02549552003615" y="150">$330</text><rect class="f2" x="170" y="158" width="110.04538592595412" height="16" rx="3"><title>Stochastic below 20, behind DCA before brokerage: $558</title></rect><text class="sub" x="286.0453859259541" y="170">$558</text><text class="lab" x="160" y="208" text-anchor="end">50-day average</text><rect class="f3" x="170" y="188" width="62.660932046580285" height="16" rx="3"><title>50-day average, brokerage saved against DCA: $318</title></rect><text class="sub" x="238.66093204658029" y="200">$318</text><rect class="f2" x="170" y="208" width="290.15730103481934" height="16" rx="3"><title>50-day average, behind DCA before brokerage: $1,473</title></rect><text class="sub" x="466.15730103481934" y="220">$1,473</text><text class="lab" x="160" y="258" text-anchor="end">200-day average</text><rect class="f3" x="170" y="238" width="92.80911633314247" height="16" rx="3"><title>200-day average, brokerage saved against DCA: $471</title></rect><text class="sub" x="268.80911633314247" y="250">$471</text><rect class="f2" x="170" y="258" width="660" height="16" rx="3"><title>200-day average, behind DCA before brokerage: $3,349</title></rect><text class="sub" x="836" y="270">$3,349</text><text class="lab" x="160" y="308" text-anchor="end">Bollinger band</text><rect class="f3" x="170" y="288" width="72.71032680876769" height="16" rx="3"><title>Bollinger band, brokerage saved against DCA: $369</title></rect><text class="sub" x="248.7103268087677" y="300">$369</text><rect class="f2" x="170" y="308" width="142.9798021772889" height="16" rx="3"><title>Bollinger band, behind DCA before brokerage: $726</title></rect><text class="sub" x="318.9798021772889" y="320">$726</text>
+</svg>

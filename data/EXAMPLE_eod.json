@@ -1,0 +1,29 @@
+[
+  {
+    "date": "2020-01-02",
+    "open": 50,
+    "high": 50.4,
+    "low": 49.8,
+    "close": 50.2,
+    "adjusted_close": 48.1,
+    "volume": 120345
+  },
+  {
+    "date": "2020-01-03",
+    "open": 50.2,
+    "high": 50.9,
+    "low": 50.1,
+    "close": 50.7,
+    "adjusted_close": 48.58,
+    "volume": 98211
+  },
+  {
+    "date": "2020-01-06",
+    "open": 50.7,
+    "high": 50.8,
+    "low": 49.9,
+    "close": 50,
+    "adjusted_close": 47.9,
+    "volume": 141002
+  }
+]

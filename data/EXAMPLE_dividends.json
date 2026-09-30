@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2020-03-31",
+    "paymentDate": "2020-04-15",
+    "unadjustedValue": 0.62,
+    "value": 0.62,
+    "currency": "AUD"
+  },
+  {
+    "date": "2020-06-30",
+    "paymentDate": "2020-07-14",
+    "unadjustedValue": 0.58,
+    "value": 0.58,
+    "currency": "AUD"
+  }
+]

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 330" width="920" height="330" role="img" aria-labelledby="t d">
+<title id="t">How each rule compared with DCA over all 95 five-year runs</title>
+<desc id="d">For each dip rule, the worst, median and best ratio of final value to DCA across every five-year run on VAS.</desc>
+<style>
+svg{--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--grid:#e8e7e3;--mu:#8a8984;--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+@media (prefers-color-scheme:dark){svg{--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--grid:#34332f;--mu:#8f8e88;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181}}
+.bg{fill:var(--surface)}
+.title{font-size:16px;font-weight:600;fill:var(--ink)}
+.note{font-size:12px;fill:var(--ink2)}
+.lab{font-size:12px;fill:var(--ink)}
+.sub{font-size:11px;fill:var(--ink2)}
+.tick{font-size:11px;fill:var(--ink2)}
+.grid{stroke:var(--grid);stroke-width:1}
+.ref{stroke:var(--ink2);stroke-width:1}
+.band{fill:var(--ink2);opacity:.1}
+.f1{fill:var(--s1)}.f2{fill:var(--s2)}.f3{fill:var(--s3)}.f4{fill:var(--s4)}.f5{fill:var(--s5)}.fm{fill:var(--mu)}
+.k1{stroke:var(--s1)}.k2{stroke:var(--s2)}.k3{stroke:var(--s3)}.k4{stroke:var(--s4)}.k5{stroke:var(--s5)}.km{stroke:var(--mu)}
+.ln{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.rng{fill:none;stroke-width:3;stroke-linecap:round}
+.dot{stroke:var(--surface);stroke-width:1.5}
+.seg{stroke:var(--surface);stroke-width:2}
+</style>
+<rect class="bg" width="920" height="330"/>
+<text class="title" x="24" y="28">How each rule compared with DCA over all 95 five-year runs</text>
+<text class="note" x="24" y="48">Dot: the typical (median) run. Line: the worst and best run. Right of the grey line means the dip rule finished ahead of DCA.</text>
+<line class="grid" x1="210" x2="210" y1="70" y2="306"/><text class="tick" x="210" y="322" text-anchor="middle">0.90</text><line class="grid" x1="293.9285714285715" x2="293.9285714285715" y1="70" y2="306"/><text class="tick" x="293.9285714285715" y="322" text-anchor="middle">0.93</text><line class="grid" x1="377.8571428571426" x2="377.8571428571426" y1="70" y2="306"/><text class="tick" x="377.8571428571426" y="322" text-anchor="middle">0.95</text><line class="grid" x1="461.7857142857141" x2="461.7857142857141" y1="70" y2="306"/><text class="tick" x="461.7857142857141" y="322" text-anchor="middle">0.97</text><line class="grid" x1="545.7142857142856" x2="545.7142857142856" y1="70" y2="306"/><text class="tick" x="545.7142857142856" y="322" text-anchor="middle">1.00</text><line class="grid" x1="629.6428571428568" x2="629.6428571428568" y1="70" y2="306"/><text class="tick" x="629.6428571428568" y="322" text-anchor="middle">1.02</text><line class="ref" x1="545.7142857142856" x2="545.7142857142856" y1="66" y2="306"/><text class="sub" x="545.7142857142856" y="62" text-anchor="middle">tie with DCA</text><text class="lab" x="198" y="96" text-anchor="end">RSI below 30</text><line class="rng k2" x1="323.6624064807778" x2="561.6817210740594" y1="92" y2="92"><title>RSI below 30: lowest 0.934, middle 0.977, highest 1.005</title></line><circle class="dot f2" cx="468.0741768282205" cy="92" r="6"><title>RSI below 30: middle run 0.977</title></circle><text class="sub" x="694" y="96">ahead of DCA in 1 of 95 runs</text><text class="lab" x="198" y="140" text-anchor="end">Stochastic below 20</text><line class="rng k3" x1="506.2554732085562" x2="566.34538271783" y1="136" y2="136"><title>Stochastic below 20: lowest 0.988, middle 0.995, highest 1.006</title></line><circle class="dot f3" cx="530.0234782821769" cy="136" r="6"><title>Stochastic below 20: middle run 0.995</title></circle><text class="sub" x="694" y="140">ahead of DCA in 23 of 95 runs</text><text class="lab" x="198" y="184" text-anchor="end">50-day average</text><line class="rng k4" x1="488.3653295143614" x2="577.7846281536241" y1="180" y2="180"><title>50-day average: lowest 0.983, middle 0.990, highest 1.010</title></line><circle class="dot f4" cx="512.8536291257542" cy="180" r="6"><title>50-day average: middle run 0.990</title></circle><text class="sub" x="694" y="184">ahead of DCA in 19 of 95 runs</text><text class="lab" x="198" y="228" text-anchor="end">200-day average</text><line class="rng k5" x1="287.3948254977307" x2="612.9233047830196" y1="224" y2="224"><title>200-day average: lowest 0.923, middle 0.961, highest 1.020</title></line><circle class="dot f5" cx="414.54695494293105" cy="224" r="6"><title>200-day average: middle run 0.961</title></circle><text class="sub" x="694" y="228">ahead of DCA in 21 of 95 runs</text><text class="lab" x="198" y="272" text-anchor="end">Bollinger band</text><line class="rng k1" x1="480.7976021133866" x2="586.3360597104263" y1="268" y2="268"><title>Bollinger band: lowest 0.981, middle 0.990, highest 1.012</title></line><circle class="dot f1" cx="511.3375720262066" cy="268" r="6"><title>Bollinger band: middle run 0.990</title></circle><text class="sub" x="694" y="272">ahead of DCA in 32 of 95 runs</text>
+</svg>

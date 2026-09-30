@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 362" width="1150" height="362" role="img" aria-labelledby="t d">
+<title id="t">What each approach made on VAS, $500 a month, 2013 to 2025</title>
+<desc id="d">Horizontal bars of the money made by dollar-cost averaging, five dip rules and a hindsight benchmark on VAS.</desc>
+<style>
+svg{--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--grid:#e8e7e3;--mu:#8a8984;--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+@media (prefers-color-scheme:dark){svg{--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--grid:#34332f;--mu:#8f8e88;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181}}
+.bg{fill:var(--surface)}
+.title{font-size:16px;font-weight:600;fill:var(--ink)}
+.note{font-size:12px;fill:var(--ink2)}
+.lab{font-size:12px;fill:var(--ink)}
+.sub{font-size:11px;fill:var(--ink2)}
+.tick{font-size:11px;fill:var(--ink2)}
+.grid{stroke:var(--grid);stroke-width:1}
+.ref{stroke:var(--ink2);stroke-width:1}
+.band{fill:var(--ink2);opacity:.1}
+.f1{fill:var(--s1)}.f2{fill:var(--s2)}.f3{fill:var(--s3)}.f4{fill:var(--s4)}.f5{fill:var(--s5)}.fm{fill:var(--mu)}
+.k1{stroke:var(--s1)}.k2{stroke:var(--s2)}.k3{stroke:var(--s3)}.k4{stroke:var(--s4)}.k5{stroke:var(--s5)}.km{stroke:var(--mu)}
+.ln{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.rng{fill:none;stroke-width:3;stroke-linecap:round}
+.dot{stroke:var(--surface);stroke-width:1.5}
+.seg{stroke:var(--surface);stroke-width:2}
+</style>
+<rect class="bg" width="1150" height="362"/>
+<text class="title" x="24" y="28">What each approach made on VAS, $500 a month, 2013 to 2025</text>
+<text class="note" x="24" y="48">$77,500 put in. Gain after brokerage, dividends included. Bars start at zero, so the gaps look small because they are small. Blue is DCA, orange a dip rule, grey hindsight.</text>
+<line class="grid" x1="190" x2="190" y1="64" y2="342"/><text class="tick" x="190" y="356" text-anchor="middle"></text><line class="grid" x1="356.8120344778724" x2="356.8120344778724" y1="64" y2="342"/><text class="tick" x="356.8120344778724" y="356" text-anchor="middle">$20,000</text><line class="grid" x1="523.6240689557447" x2="523.6240689557447" y1="64" y2="342"/><text class="tick" x="523.6240689557447" y="356" text-anchor="middle">$40,000</text><line class="grid" x1="690.4361034336171" x2="690.4361034336171" y1="64" y2="342"/><text class="tick" x="690.4361034336171" y="356" text-anchor="middle">$60,000</text><text class="lab" x="180" y="86" text-anchor="end">DCA</text><rect class="f1" x="190" y="72" width="522.8461069115835" height="20" rx="3"><title>DCA: made $62,687 on $77,500 put in; 189 buys; $567 brokerage; $27 cash left</title></rect><text class="lab" x="720.8461069115835" y="86">$62,687</text><text class="sub" x="773.0461069115836" y="86">1.000 of DCA, 189 buys, $567 brokerage</text><text class="lab" x="180" y="124" text-anchor="end">Stochastic below 20</text><rect class="f2" x="190" y="110" width="520.9405054096861" height="20" rx="3"><title>Stochastic below 20: made $62,458 on $77,500 put in; 79 buys; $237 brokerage; $13 cash left</title></rect><text class="lab" x="718.9405054096861" y="124">$62,458</text><text class="sub" x="771.1405054096862" y="124">0.998 of DCA, 79 buys, $237 brokerage</text><text class="lab" x="180" y="162" text-anchor="end">Bollinger band</text><rect class="f2" x="190" y="148" width="519.8717412125015" height="20" rx="3"><title>Bollinger band: made $62,330 on $77,500 put in; 66 buys; $198 brokerage; $100 cash left</title></rect><text class="lab" x="717.8717412125015" y="162">$62,330</text><text class="sub" x="770.0717412125016" y="162">0.997 of DCA, 66 buys, $198 brokerage</text><text class="lab" x="180" y="200" text-anchor="end">50-day average</text><rect class="f2" x="190" y="186" width="513.2166427233899" height="20" rx="3"><title>50-day average: made $61,532 on $77,500 put in; 83 buys; $249 brokerage; $590 cash left</title></rect><text class="lab" x="711.2166427233899" y="200">$61,532</text><text class="sub" x="763.4166427233899" y="200">0.992 of DCA, 83 buys, $249 brokerage</text><text class="lab" x="180" y="238" text-anchor="end">RSI below 30</text><rect class="f2" x="190" y="224" width="506.1975110202818" height="20" rx="3"><title>RSI below 30: made $60,691 on $77,500 put in; 17 buys; $51 brokerage; $70 cash left</title></rect><text class="lab" x="704.1975110202818" y="238">$60,691</text><text class="sub" x="756.3975110202819" y="238">0.986 of DCA, 17 buys, $51 brokerage</text><text class="lab" x="180" y="276" text-anchor="end">200-day average</text><rect class="f2" x="190" y="262" width="498.83805646915073" height="20" rx="3"><title>200-day average: made $59,808 on $77,500 put in; 32 buys; $96 brokerage; $46 cash left</title></rect><text class="lab" x="696.8380564691507" y="276">$59,808</text><text class="sub" x="749.0380564691508" y="276">0.979 of DCA, 32 buys, $96 brokerage</text><text class="lab" x="180" y="314" text-anchor="end">Hindsight ("God")</text><rect class="fm" x="190" y="300" width="530" height="20" rx="3"><title>Hindsight ("God"): made $63,545 on $77,500 put in; 81 buys; $243 brokerage; $563 cash left</title></rect><text class="lab" x="728" y="314">$63,545</text><text class="sub" x="780.2" y="314">1.006 of DCA, 81 buys, $243 brokerage</text>
+</svg>
