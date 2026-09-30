@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>No God Required: interactive charts</title>
+<style>
+:root{color-scheme:light dark;--bg:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e}
+@media (prefers-color-scheme:dark){:root{--bg:#1a1a19;--ink:#fff;--ink2:#c3c2b7}}
+body{margin:0 auto;max-width:1180px;padding:0 16px 48px;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+h1{font-size:1.5rem;margin:1.5rem 0 .25rem}h2{font-size:1.15rem;margin:2.5rem 0 .5rem}
+p{color:var(--ink2);margin:.25rem 0}figure{margin:1rem 0}figcaption{font-size:.9rem;color:var(--ink2);margin-bottom:.25rem}
+object{display:block;width:100%;height:auto}a{color:inherit}
+</style></head><body>
+<h1>No God Required: interactive charts</h1>
+<p>Buying the dip against dollar-cost averaging on ASX ETFs (Australian edition). Hover a dot or bar for the date and amount.</p>
+<p>Historical scenarios for education, not advice. Method and code: <a href="https://github.com/kryltsov/no-god-required-dca-vs-dip-au">the repository</a>.</p>
+<h2>Even a god couldn't beat dollar-cost averaging. What about an investor with a spreadsheet?</h2>
+<figure><figcaption>What each approach made on VAS, $500 a month, 2013 to 2025</figcaption><object type="image/svg+xml" data="figures/a1-gain-by-strategy.svg" style="aspect-ratio:1150/362" aria-label="What each approach made on VAS, $500 a month, 2013 to 2025"></object></figure>
+<figure><figcaption>DCA against RSI: VAS, $500 a month</figcaption><object type="image/svg+xml" data="figures/vas-dca-vs-rsi.svg" style="aspect-ratio:920/824" aria-label="DCA against RSI: VAS, $500 a month"></object></figure>
+<figure><figcaption>DCA against 200-day: VAS, $500 a month</figcaption><object type="image/svg+xml" data="figures/vas-dca-vs-ma200.svg" style="aspect-ratio:920/824" aria-label="DCA against 200-day: VAS, $500 a month"></object></figure>
+<figure><figcaption>DCA against Stochastic: VAS, $500 a month</figcaption><object type="image/svg+xml" data="figures/vas-dca-vs-stoch.svg" style="aspect-ratio:920/824" aria-label="DCA against Stochastic: VAS, $500 a month"></object></figure>
+<figure><figcaption>DCA against Bollinger: VAS, $500 a month</figcaption><object type="image/svg+xml" data="figures/vas-dca-vs-bollinger.svg" style="aspect-ratio:920/824" aria-label="DCA against Bollinger: VAS, $500 a month"></object></figure>
+<figure><figcaption>DCA against hindsight (God): VAS, $500 a month</figcaption><object type="image/svg+xml" data="figures/vas-dca-vs-god.svg" style="aspect-ratio:920/824" aria-label="DCA against hindsight (God): VAS, $500 a month"></object></figure>
+<figure><figcaption>How much of the money was sitting in cash, VAS, 2013 to 2025</figcaption><object type="image/svg+xml" data="figures/a1-cash-waiting.svg" style="aspect-ratio:920/400" aria-label="How much of the money was sitting in cash, VAS, 2013 to 2025"></object></figure>
+<figure><figcaption>How each rule compared with DCA over all 95 five-year runs</figcaption><object type="image/svg+xml" data="figures/a1-five-year-runs.svg" style="aspect-ratio:920/330" aria-label="How each rule compared with DCA over all 95 five-year runs"></object></figure>
+<h2>What if you are late? The result that depends on one week in 2020</h2>
+<figure><figcaption>Buying later: final value against DCA, VAS, full 12.9 years</figcaption><object type="image/svg+xml" data="figures/a2-delay-full-period.svg" style="aspect-ratio:920/400" aria-label="Buying later: final value against DCA, VAS, full 12.9 years"></object></figure>
+<figure><figcaption>Buying later: the typical result over 95 five-year runs, VAS</figcaption><object type="image/svg+xml" data="figures/a2-delay-five-year-median.svg" style="aspect-ratio:920/400" aria-label="Buying later: the typical result over 95 five-year runs, VAS"></object></figure>
+<figure><figcaption>DCA against RSI acted on a month late: VAS, $500 a month</figcaption><object type="image/svg+xml" data="figures/vas-dca-vs-rsi-late22.svg" style="aspect-ratio:920/824" aria-label="DCA against RSI acted on a month late: VAS, $500 a month"></object></figure>
+<figure><figcaption>Every RSI signal on VAS: what waiting a month did to the price paid</figcaption><object type="image/svg+xml" data="figures/a2-rsi-signals.svg" style="aspect-ratio:920/446" aria-label="Every RSI signal on VAS: what waiting a month did to the price paid"></object></figure>
+<figure><figcaption>RSI against DCA, for every start month: next day and a month late</figcaption><object type="image/svg+xml" data="figures/a2-rsi-by-start-month.svg" style="aspect-ratio:920/420" aria-label="RSI against DCA, for every start month: next day and a month late"></object></figure>
+<figure><figcaption>RSI on 20 other funds: bought the next day, and a month late</figcaption><object type="image/svg+xml" data="figures/a2-other-funds-rsi.svg" style="aspect-ratio:920/724" aria-label="RSI on 20 other funds: bought the next day, and a month late"></object></figure>
+<h2>Five funds, one dip: what the signal cannot tell you</h2>
+<figure><figcaption>Each fund on its own: dollars made per $1 put in, $500 a month, 2013 to 2025</figcaption><object type="image/svg+xml" data="figures/a3-each-fund-alone.svg" style="aspect-ratio:920/324" aria-label="Each fund on its own: dollars made per $1 put in, $500 a month, 2013 to 2025"></object></figure>
+<figure><figcaption>DCA against RSI: five-fund Topaz portfolio, $500 a month</figcaption><object type="image/svg+xml" data="figures/diversified-dca-vs-rsi.svg" style="aspect-ratio:920/824" aria-label="DCA against RSI: five-fund Topaz portfolio, $500 a month"></object></figure>
+<figure><figcaption>What each portfolio held at the end, against the target</figcaption><object type="image/svg+xml" data="figures/a3-end-mix.svg" style="aspect-ratio:920/332" aria-label="What each portfolio held at the end, against the target"></object></figure>
+<figure><figcaption>DCA against RSI, a pot per fund: five-fund Topaz portfolio, $500 a month</figcaption><object type="image/svg+xml" data="figures/diversified-pots-dca-vs-rsi.svg" style="aspect-ratio:920/824" aria-label="DCA against RSI, a pot per fund: five-fund Topaz portfolio, $500 a month"></object></figure>
+<figure><figcaption>A pot per fund: the same result measured against two different DCA baselines</figcaption><object type="image/svg+xml" data="figures/a3-mix-effect.svg" style="aspect-ratio:920/282" aria-label="A pot per fund: the same result measured against two different DCA baselines"></object></figure>
+<h2>What a trade costs: does brokerage change the answer?</h2>
+<figure><figcaption>Final value against DCA as brokerage rises, VAS, full period</figcaption><object type="image/svg+xml" data="figures/a4-fee-lines.svg" style="aspect-ratio:920/400" aria-label="Final value against DCA as brokerage rises, VAS, full period"></object></figure>
+<figure><figcaption>Waiting cost each dip rule more than its lower brokerage gave back, VAS, $3 a trade</figcaption><object type="image/svg+xml" data="figures/a4-saved-vs-lost.svg" style="aspect-ratio:920/362" aria-label="Waiting cost each dip rule more than its lower brokerage gave back, VAS, $3 a trade"></object></figure>
+<h2>Putting it together: the five-minute spreadsheet, and what this series does and does not show</h2>
+<figure><figcaption>Every headline result in the series: final value against DCA</figcaption><object type="image/svg+xml" data="figures/a5-all-results.svg" style="aspect-ratio:920/466" aria-label="Every headline result in the series: final value against DCA"></object></figure>
+</body></html>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 324" width="920" height="324" role="img" aria-labelledby="t d">
+<title id="t">Each fund on its own: dollars made per $1 put in, $500 a month, 2013 to 2025</title>
+<desc id="d">Horizontal bars of money made per dollar contributed for VAS, IOO, IEM, IAF, GOLD and AAA.</desc>
+<style>
+svg{--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--grid:#e8e7e3;--mu:#8a8984;--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+@media (prefers-color-scheme:dark){svg{--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--grid:#34332f;--mu:#8f8e88;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181}}
+.bg{fill:var(--surface)}
+.title{font-size:16px;font-weight:600;fill:var(--ink)}
+.note{font-size:12px;fill:var(--ink2)}
+.lab{font-size:12px;fill:var(--ink)}
+.sub{font-size:11px;fill:var(--ink2)}
+.tick{font-size:11px;fill:var(--ink2)}
+.grid{stroke:var(--grid);stroke-width:1}
+.ref{stroke:var(--ink2);stroke-width:1}
+.band{fill:var(--ink2);opacity:.1}
+.f1{fill:var(--s1)}.f2{fill:var(--s2)}.f3{fill:var(--s3)}.f4{fill:var(--s4)}.f5{fill:var(--s5)}.fm{fill:var(--mu)}
+.k1{stroke:var(--s1)}.k2{stroke:var(--s2)}.k3{stroke:var(--s3)}.k4{stroke:var(--s4)}.k5{stroke:var(--s5)}.km{stroke:var(--mu)}
+.ln{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.rng{fill:none;stroke-width:3;stroke-linecap:round}
+.dot{stroke:var(--surface);stroke-width:1.5}
+.seg{stroke:var(--surface);stroke-width:2}
+</style>
+<rect class="bg" width="920" height="324"/>
+<text class="title" x="24" y="28">Each fund on its own: dollars made per $1 put in, $500 a month, 2013 to 2025</text>
+<text class="note" x="24" y="48">The five Topaz funds and the cash ETF, each bought by DCA alone. Two of them did far better than the rest.</text>
+<line class="grid" x1="120" x2="120" y1="64" y2="304"/><text class="tick" x="120" y="318" text-anchor="middle"></text><line class="grid" x1="239.19336445423656" x2="239.19336445423656" y1="64" y2="304"/><text class="tick" x="239.19336445423656" y="318" text-anchor="middle">$0.5</text><line class="grid" x1="358.3867289084731" x2="358.3867289084731" y1="64" y2="304"/><text class="tick" x="358.3867289084731" y="318" text-anchor="middle">$1.0</text><line class="grid" x1="477.5800933627097" x2="477.5800933627097" y1="64" y2="304"/><text class="tick" x="477.5800933627097" y="318" text-anchor="middle">$1.5</text><line class="grid" x1="596.7734578169462" x2="596.7734578169462" y1="64" y2="304"/><text class="tick" x="596.7734578169462" y="318" text-anchor="middle">$2.0</text><text class="lab" x="110" y="86" text-anchor="end">IOO</text><rect class="f1" x="120" y="72" width="550" height="20" rx="3"><title>IOO: $2.31 made per $1 put in</title></rect><text class="lab" x="678" y="86">$2.31</text><text class="sub" x="717" y="86">$178,806 made on $77,500</text><text class="lab" x="110" y="124" text-anchor="end">GOLD</text><rect class="f1" x="120" y="110" width="486.3556041550927" height="20" rx="3"><title>GOLD: $2.04 made per $1 put in</title></rect><text class="lab" x="614.3556041550927" y="124">$2.04</text><text class="sub" x="653.3556041550927" y="124">$158,115 made on $77,500</text><text class="lab" x="110" y="162" text-anchor="end">VAS</text><rect class="f1" x="120" y="148" width="192.82212602915968" height="20" rx="3"><title>VAS: $0.81 made per $1 put in</title></rect><text class="lab" x="320.8221260291597" y="162">$0.81</text><text class="sub" x="359.8221260291597" y="162">$62,687 made on $77,500</text><text class="lab" x="110" y="200" text-anchor="end">IEM</text><rect class="f1" x="120" y="186" width="160.30868162945893" height="20" rx="3"><title>IEM: $0.67 made per $1 put in</title></rect><text class="lab" x="288.30868162945893" y="200">$0.67</text><text class="sub" x="327.30868162945893" y="200">$52,117 made on $77,500</text><text class="lab" x="110" y="238" text-anchor="end">AAA</text><rect class="fm" x="120" y="224" width="41.06858889692771" height="20" rx="3"><title>AAA: $0.17 made per $1 put in</title></rect><text class="lab" x="169.0685888969277" y="238">$0.17</text><text class="sub" x="208.0685888969277" y="238">$13,351 made on $77,500</text><text class="lab" x="110" y="276" text-anchor="end">IAF</text><rect class="f1" x="120" y="262" width="28.289662115420782" height="20" rx="3"><title>IAF: $0.12 made per $1 put in</title></rect><text class="lab" x="156.28966211542078" y="276">$0.12</text><text class="sub" x="195.28966211542078" y="276">$9,197 made on $77,500</text>
+</svg>
